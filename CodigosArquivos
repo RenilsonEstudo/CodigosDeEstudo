@@ -1,0 +1,4 @@
+""" abertura de arquivo"""
+
+with open('simple.txt','r') as in_file:
+	print(in_file.read())
